@@ -854,7 +854,7 @@ ul.bxslider {
 .ill_title img {
   width: 50%;
   margin-left: 500px;
-  margin-bottom: 250px;
+  margin-bottom: 220px;
 }
 .part2_first img {
   width: 40%;
@@ -893,6 +893,13 @@ ul.bxslider {
   float: right;
   width: 40%;
   margin-right: 8%;
+}
+.webseb_charc {
+  position: relative;
+  top: 700px;
+  left: 1020px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 37px;
 }
 .twosomeplace_charc img {
   float: left;
