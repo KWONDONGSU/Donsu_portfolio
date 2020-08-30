@@ -55,7 +55,7 @@ header {
   background-color: #1d3c5b;
 }
 .gnb li {
-  width: 124px;
+  width: 175px;
   font-size: 25px;
   font-family: "Nanum Pen Script", cursive;
   margin-bottom: 70px;
@@ -777,6 +777,7 @@ ul.bxslider {
   height: 60px;
   position: absolute;
   top: calc(50% - 400px);
+  margin-right: 1500px;
   text-indent: -999999px;
   opacity: 60%;
 }
@@ -853,6 +854,7 @@ ul.bxslider {
 .ill_title img {
   width: 50%;
   margin-left: 500px;
+  margin-bottom: 250px;
 }
 .part2_first img {
   width: 40%;
@@ -903,6 +905,8 @@ ul.bxslider {
   bottom: 239px;
   left: 31%;
   width: 94px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 26px;
 }
 .plus_button img {
   width: 30%;
@@ -914,6 +918,7 @@ ul.bxslider {
   width: 100%;
 }
 .purple_bear img {
-  width: 100%;
+  width: 90%;
+  margin-left: 100px;
 }
 /* 커피목업 */
