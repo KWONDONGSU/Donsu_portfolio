@@ -89,11 +89,15 @@ section::after {
 .bxslider {
   background: #6cf;
 }
+.promote_img img {
+  width: 50%;
+  margin-left: 500px;
+}
 #cont3 {
   width: 100%;
   margin-top: 10%;
 }
-#cont5 {
+#cont6 {
   background: rgb(63, 63, 159);
 }
 .text_1 {
@@ -879,8 +883,8 @@ ul.bxslider {
 }
 /* 마지막 슬릭슬라이더 영역끝 */
 /* *********************************************************************** */
-#cont3,
-#cont4 {
+#cont4,
+#cont5 {
   margin-bottom: 100px;
 }
 #cont4:after {
