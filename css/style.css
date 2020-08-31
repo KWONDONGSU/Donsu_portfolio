@@ -989,3 +989,16 @@ ul.bxslider {
   font-size: 25px;
 }
 /* 팝업창 */
+/* 피자광고팝업창 */
+.ggr img {
+  width: 4%;
+  transform: rotate(140deg);
+}
+.ggr {
+  position: relative;
+  left: 1097px;
+  bottom: 119px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 25px;
+}
+/* 피자광고팝업창 */
