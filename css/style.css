@@ -92,6 +92,7 @@ section::after {
 .promote_img img {
   width: 50%;
   margin-left: 500px;
+  margin-bottom: 200px;
 }
 #cont3 {
   width: 100%;
@@ -858,7 +859,20 @@ ul.bxslider {
 .ill_title img {
   width: 50%;
   margin-left: 500px;
-  margin-bottom: 220px;
+}
+.cafe_logo img {
+  width: 40%;
+  margin-top: 200px;
+  margin-left: 300px;
+  margin-bottom: 300px;
+}
+.cafe_logo_charc {
+  width: 650px;
+  float: right;
+  margin-top: 500px;
+  margin-right: 140px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 25px;
 }
 .part2_first img {
   width: 40%;
