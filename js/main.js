@@ -89,5 +89,21 @@ $(document).ready(function () {
       stopAutoOnclick: true,
     });
   });
+  // 팝업창
+  $(function () {
+    $(".partner").each(function () {
+      $(this).click(function () {
+        var img_name = $(this).find(".partner_info");
+        var img_src = $(img_name).attr("phref");
+        $("#modal").show();
+        $("#modal img").attr("src", img_src);
+        $("#modal .txt").text(img_src);
+      });
+    });
+
+    $("#modal button, #modal").click(function () {
+      $("#modal").hide();
+    });
+  });
 });
 //실행틀 끝
