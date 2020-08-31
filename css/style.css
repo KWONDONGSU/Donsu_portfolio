@@ -986,6 +986,7 @@ ul.bxslider {
 .partner img {
   width: 30%;
   margin-left: 515px;
+  cursor: pointer;
 }
 .partner_info {
   margin-left: 512px;
