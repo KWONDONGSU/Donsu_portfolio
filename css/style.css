@@ -696,7 +696,7 @@ ul.bxslider {
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
   left: 13%;
-  background: url("../images/back_1.png") no-repeat 0 0;
+  background: url("../img/back_1.png") no-repeat 0 0;
 }
 .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-prev:focus {
@@ -704,7 +704,7 @@ ul.bxslider {
 }
 .bx-wrapper .bx-next {
   right: 10px;
-  background: url("../images/next_1.png") no-repeat 0 0;
+  background: url("../img/next_1.png") no-repeat 0 0;
 }
 .bx-wrapper .bx-next:hover,
 .bx-wrapper .bx-next:focus {
