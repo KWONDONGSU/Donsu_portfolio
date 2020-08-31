@@ -977,4 +977,15 @@ ul.bxslider {
   margin-left: 512px;
   font-size: 18px;
 }
+.ggri img {
+  width: 4%;
+  transform: rotate(140deg);
+}
+.ggri {
+  position: relative;
+  left: 1097px;
+  bottom: 345px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 25px;
+}
 /* 팝업창 */
