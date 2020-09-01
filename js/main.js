@@ -95,9 +95,13 @@ $(document).ready(function () {
       $(this).click(function () {
         var img_name = $(this).find(".partner_info");
         var img_src = $(img_name).attr("phref");
+        var img_title = $(img_name).attr("title");
+        var img_size = $(img_name).attr("size");
+
         $("#modal").show();
         $("#modal img").attr("src", img_src);
-        $("#modal .txt").text(img_src);
+        $("#modal .txt").text(img_title);
+        $("#modal img").width(img_size);
       });
     });
 

@@ -58,7 +58,7 @@ header {
   width: 175px;
   font-size: 25px;
   font-family: "Nanum Pen Script", cursive;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   transform: translate(-8px, 0);
 }
 .gnb li:first-child {
@@ -89,11 +89,13 @@ section::after {
 .bxslider {
   background: #6cf;
 }
-.promote_img img {
-  width: 50%;
-  margin-left: 500px;
+.promote_img {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 200px;
 }
+.promote_img img{width:100%;}
 #cont3 {
   width: 100%;
   margin-top: 10%;
@@ -209,7 +211,7 @@ section::after {
 .social {
   position: absolute;
   top: 20px;
-  right: 0;
+  left: 40px;
   z-index: 999999;
 }
 .sns {
@@ -695,7 +697,7 @@ ul.bxslider {
 }
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
-  left: 13%;
+  left: 40px;
   background: url("../img/back_1.png") no-repeat 0 0;
 }
 .bx-wrapper .bx-prev:hover,
@@ -703,7 +705,7 @@ ul.bxslider {
   background-position: 0 0;
 }
 .bx-wrapper .bx-next {
-  right: 10px;
+  left: 130px;
   background: url("../img/next_1.png") no-repeat 0 0;
 }
 .bx-wrapper .bx-next:hover,
@@ -778,14 +780,16 @@ ul.bxslider {
 
 .bx-wrapper .bx-controls-direction a {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 49px;
+  height: 49px;
   position: absolute;
-  top: calc(50% - 400px);
+  /*top: calc(50% - 400px);*/
+  top:70px;
   margin-right: 1500px;
   text-indent: -999999px;
-  opacity: 60%;
+  opacity: 80%;
 }
+.bx-wrapper .bx-controls-direction a:hover{border-radius: 50%;opacity: 100%;box-shadow: 3px 3px 3px #aaa;}
 .bx-wrapper .bx-controls-direction a.disabled {
   display: none;
 }
@@ -907,34 +911,37 @@ ul.bxslider {
   clear: both;
 }
 /* 투썸플레이스 썸네일 */
-.twosomeplace_picture img {
+.twosomeplace_picture {
   float: right;
   width: 40%;
   margin-right: 8%;
-}
-.webseb_charc {
   position: relative;
-  top: 700px;
-  left: 1020px;
+}
+.twosomeplace_picture img{width:100%;}
+.webseb_charc {
+  position: absolute;
+  bottom:20px;
+  left:20px;
   font-family: "Nanum Pen Script", cursive;
   font-size: 37px;
+  color:#555
 }
-.twosomeplace_charc img {
-  float: left;
+.twosomeplace_charc{ position: relative; float: left;
   width: 30%;
   margin-left: 16%;
-  margin-top: 10%;
+  margin-top: 10%;}
+.twosomeplace_charc img {
+ 
 }
 .plus_button {
-  position: relative;
-  bottom: 239px;
-  left: 31%;
-  width: 94px;
+  position: absolute;
+  bottom:15%;right:40%;
   font-family: "Nanum Pen Script", cursive;
   font-size: 26px;
 }
+.plus_button a{color:#555}
 .plus_button img {
-  width: 30%;
+  width:30px; margin-right:10px
 }
 /* 투썸플레이스 썸네일 끝 */
 /* 커피목업 */
@@ -959,17 +966,22 @@ ul.bxslider {
   display: none;
 }
 #modal .body {
-  padding: 20px;
-  position: absolute;
-  left: 40%;
-  top: 10%;
+   width:70%;margin:0 auto;
+   background-color:#fff;
+   height:100%;
+   overflow:auto;
+   text-align:center;
   /* opacity: 0; */
   /* transform: translate(-50%, -50%); */
-  background: white;
+  /*display: table-cell;
+  vertical-align: middle;*/
+  
 }
+#modal .txt{margin-top:50px;margin-bottom:50px;font-size:2rem}
 #modal .body img {
-  display: block;
+  
   margin-bottom: 20px;
+  width:100%;
 }
 #modal .button {
   position: absolute;
@@ -977,43 +989,56 @@ ul.bxslider {
   top: 50px;
 }
 #modal .button button {
-  padding: 6px 12px;
+  
   border: none;
-  border-radius: 6px;
-  background: #009688;
-  color: white;
-}
-.partner img {
-  width: 30%;
-  margin-left: 515px;
+  text-indent: -999999px;
+  background:none;
   cursor: pointer;
+  width:70px;height:70px;
+}
+#modal .button button span{display: block;width:70px;height:1px;background-color:#fff;position: absolute;left:0; }
+#modal .button button span:nth-child(1){top:0;transform:rotate(45deg)}
+#modal .button button span:nth-child(2){top:0;transform:rotate(-45deg)}
+
+.ad{max-width:950px;margin:0 auto;margin-bottom:50px}
+.ad:after{content: '';display: block;clear:both;}
+.partner{width: 60%;cursor: pointer;float:left;border:1px solid #eee}
+.partner img {
+  width:100%;
 }
 .partner_info {
   margin-left: 512px;
   font-size: 18px;
 }
-.ggri img {
-  width: 4%;
-  transform: rotate(140deg);
-}
-.ggri {
-  position: relative;
-  left: 1097px;
-  bottom: 345px;
-  font-family: "Nanum Pen Script", cursive;
-  font-size: 25px;
-}
-/* 팝업창 */
-/* 피자광고팝업창 */
 .ggr img {
-  width: 4%;
   transform: rotate(140deg);
 }
 .ggr {
+  float:left;
   position: relative;
-  left: 1097px;
-  bottom: 119px;
   font-family: "Nanum Pen Script", cursive;
   font-size: 25px;
+  width:40%
 }
-/* 피자광고팝업창 */
+
+@media all and (max-width:800px) {
+  .partner{width: 100%;/*cursor: pointer;float:left;border:1px solid #eee*/}
+
+  .ggr {
+    /*float:left;
+    position: relative;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 25px;*/
+    width:100%
+  }
+  .twosomeplace_picture {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    position: relative;
+  }
+  .twosomeplace_charc{ position: relative; float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;}
+}
