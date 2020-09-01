@@ -95,7 +95,9 @@ section::after {
   margin-right: auto;
   margin-bottom: 200px;
 }
-.promote_img img{width:100%;}
+.promote_img img {
+  width: 100%;
+}
 #cont3 {
   width: 100%;
   margin-top: 10%;
@@ -784,12 +786,16 @@ ul.bxslider {
   height: 49px;
   position: absolute;
   /*top: calc(50% - 400px);*/
-  top:70px;
+  top: 70px;
   margin-right: 1500px;
   text-indent: -999999px;
   opacity: 80%;
 }
-.bx-wrapper .bx-controls-direction a:hover{border-radius: 50%;opacity: 100%;box-shadow: 3px 3px 3px #aaa;}
+.bx-wrapper .bx-controls-direction a:hover {
+  border-radius: 50%;
+  opacity: 100%;
+  box-shadow: 3px 3px 3px #aaa;
+}
 .bx-wrapper .bx-controls-direction a.disabled {
   display: none;
 }
@@ -917,31 +923,40 @@ ul.bxslider {
   margin-right: 8%;
   position: relative;
 }
-.twosomeplace_picture img{width:100%;}
+.twosomeplace_picture img {
+  width: 100%;
+}
 .webseb_charc {
   position: absolute;
-  bottom:20px;
-  left:20px;
+  bottom: 20px;
+  left: 20px;
   font-family: "Nanum Pen Script", cursive;
   font-size: 37px;
-  color:#555
+  color: #555;
+  opacity: 80%;
 }
-.twosomeplace_charc{ position: relative; float: left;
+.twosomeplace_charc {
+  position: relative;
+  float: left;
   width: 30%;
   margin-left: 16%;
-  margin-top: 10%;}
+  margin-top: 10%;
+}
 .twosomeplace_charc img {
- 
 }
 .plus_button {
   position: absolute;
-  bottom:15%;right:40%;
+  bottom: 24%;
+  right: 40%;
   font-family: "Nanum Pen Script", cursive;
   font-size: 26px;
 }
-.plus_button a{color:#555}
+.plus_button a {
+  color: #555;
+}
 .plus_button img {
-  width:30px; margin-right:10px
+  width: 30px;
+  margin-right: 10px;
 }
 /* 투썸플레이스 썸네일 끝 */
 /* 커피목업 */
@@ -966,22 +981,25 @@ ul.bxslider {
   display: none;
 }
 #modal .body {
-   width:70%;margin:0 auto;
-   background-color:#fff;
-   height:100%;
-   overflow:auto;
-   text-align:center;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
   /* opacity: 0; */
   /* transform: translate(-50%, -50%); */
   /*display: table-cell;
   vertical-align: middle;*/
-  
 }
-#modal .txt{margin-top:50px;margin-bottom:50px;font-size:2rem}
+#modal .txt {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
 #modal .body img {
-  
   margin-bottom: 20px;
-  width:100%;
+  width: 100%;
 }
 #modal .button {
   position: absolute;
@@ -989,22 +1007,48 @@ ul.bxslider {
   top: 50px;
 }
 #modal .button button {
-  
   border: none;
   text-indent: -999999px;
-  background:none;
+  background: none;
   cursor: pointer;
-  width:70px;height:70px;
+  width: 70px;
+  height: 70px;
 }
-#modal .button button span{display: block;width:70px;height:1px;background-color:#fff;position: absolute;left:0; }
-#modal .button button span:nth-child(1){top:0;transform:rotate(45deg)}
-#modal .button button span:nth-child(2){top:0;transform:rotate(-45deg)}
+#modal .button button span {
+  display: block;
+  width: 70px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+}
+#modal .button button span:nth-child(1) {
+  top: 0;
+  transform: rotate(45deg);
+}
+#modal .button button span:nth-child(2) {
+  top: 0;
+  transform: rotate(-45deg);
+}
 
-.ad{max-width:950px;margin:0 auto;margin-bottom:50px}
-.ad:after{content: '';display: block;clear:both;}
-.partner{width: 60%;cursor: pointer;float:left;border:1px solid #eee}
+.ad {
+  max-width: 950px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.ad:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.partner {
+  width: 60%;
+  cursor: pointer;
+  float: left;
+  border: 1px solid #eee;
+}
 .partner img {
-  width:100%;
+  width: 100%;
 }
 .partner_info {
   margin-left: 512px;
@@ -1014,22 +1058,24 @@ ul.bxslider {
   transform: rotate(140deg);
 }
 .ggr {
-  float:left;
+  float: left;
   position: relative;
   font-family: "Nanum Pen Script", cursive;
   font-size: 25px;
-  width:40%
+  width: 40%;
 }
 
-@media all and (max-width:800px) {
-  .partner{width: 100%;/*cursor: pointer;float:left;border:1px solid #eee*/}
+@media all and (max-width: 800px) {
+  .partner {
+    width: 100%; /*cursor: pointer;float:left;border:1px solid #eee*/
+  }
 
   .ggr {
     /*float:left;
     position: relative;
     font-family: "Nanum Pen Script", cursive;
     font-size: 25px;*/
-    width:100%
+    width: 100%;
   }
   .twosomeplace_picture {
     float: none;
@@ -1037,8 +1083,11 @@ ul.bxslider {
     margin-right: 0;
     position: relative;
   }
-  .twosomeplace_charc{ position: relative; float: none;
+  .twosomeplace_charc {
+    position: relative;
+    float: none;
     width: 100%;
     margin-left: 0;
-    margin-top: 0;}
+    margin-top: 0;
+  }
 }
