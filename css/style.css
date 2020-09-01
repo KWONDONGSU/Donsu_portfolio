@@ -795,6 +795,7 @@ ul.bxslider {
   border-radius: 50%;
   opacity: 100%;
   box-shadow: 3px 3px 3px #aaa;
+  transition: 0.5s;
 }
 .bx-wrapper .bx-controls-direction a.disabled {
   display: none;
